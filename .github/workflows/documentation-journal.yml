@@ -15,11 +15,11 @@ on:
         default: true
 permissions: {}
 concurrency:
-  group: documentation-journal-${{ github.repository_id }}-26
+  group: documentation-journal-${{ github.repository_id }}-1
   cancel-in-progress: false
 jobs:
   record:
-    if: github.repository_id == '1358307744' && github.ref == 'refs/heads/main'
+    if: github.repository_id == '1368660987' && github.ref == 'refs/heads/main' && (vars.DOCUMENTATION_JOURNAL_ENABLED == 'true' || (github.event_name == 'workflow_dispatch' && inputs.dry_run))
     runs-on: ubuntu-latest
     timeout-minutes: 15
     permissions:

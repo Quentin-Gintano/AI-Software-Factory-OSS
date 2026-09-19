@@ -1,11 +1,11 @@
 {
-  "repository": "AAAlcest/AI-Software-Factory-OSS",
-  "repository_id": 1358307744,
+  "repository": "Quentin-Gintano/AI-Software-Factory-OSS",
+  "repository_id": 1368660987,
   "default_branch": "main",
-  "notice_issue": 26,
+  "notice_issue": 1,
   "writer_login": "github-actions[bot]",
-  "baseline_sha": "974b17a7a70e75824db033a4ce4d69928fb91b30",
-  "since": "2026-09-18T19:33:42Z",
+  "baseline_sha": "6a302ae834f566ab446c7d3c3c044fdd65d904a4",
+  "since": "2026-09-19T17:15:30Z",
   "paths": [
     "*.md",
     "docs/*",
